@@ -62,7 +62,7 @@ def aggiorna_scadenze(attivita):
     return attivita, aggiornato
 
 # Interfaccia Streamlit
-st.set_page_config(page_title="Gestione Attività - Gianmario")
+st.set_page_config(page_title="Gestione Attività - Gianfranco")
 
 # Adattamento dinamico stile per dispositivi
 st.markdown("""
@@ -74,7 +74,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🗂️ Gestione Attività - Gianmario")
+st.title("🗂️ Gestione Attività - Gianfranco")
 
 # Navigazione tra pagine
 pagina = st.sidebar.selectbox("Naviga tra le sezioni", ["Agenda", "Completate", "Eliminate", "Contesti"])
